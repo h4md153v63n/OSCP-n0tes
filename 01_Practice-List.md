@@ -2,8 +2,8 @@
 
 
 # Easy
-|S.No| Machine          | Link | CVE  | Tags    |
-|----|------------------|------|------|---------|
+|S.No| Machine          | Link |CVE                                                   | Tags    |
+|----|------------------|------|------------------------------------------------------|---------|
 |1   |Lame              |[Lame](https://github.com/h4md153v63n/CTFs/blob/main/01_HTB/01_Lame.md)|CVE-2007-2447, CVE-2004-2687, CVE-2009-1185|unix,smb,samba,smbmap,smbclient,distccd,process,udev|
 |2   |Shocker           |[Shocker](https://github.com/h4md153v63n/CTFs/blob/main/01_HTB/03_Shocker.md)|CVE-2014-6271|unix,cgi-*,cgi-bin,user.sh,shellshock,gtfobins,sudo,RCE,reverse shell|
 |3   |Bashed            |[Bashed](https://github.com/h4md153v63n/CTFs/blob/main/01_HTB/04_Bashed.md)|-|unix,sudo,cronjob/scheduled task,RCE,reverse shell|
@@ -14,24 +14,25 @@
 
 
 # Medium
-|S.No| Machine          | Link | CVE  | Tags    |
-|----|------------------|------|------|---------|
+|S.No| Machine          | Link |CVE                                                   | Tags    |
+|----|------------------|------|------------------------------------------------------|---------|
 |1   |Cronos            |[Cronos](https://github.com/h4md153v63n/CTFs/blob/main/01_HTB/07_Cronos.md)|CVE-2017-16995, CVE-2018-15133|unix,burp,cronjob/scheduled task,DNS,DNS zone transfer,subdomain,sqli,RCE,reverse shell,KERNEL,Laravel|
 |2   |Nineveh           |[Nineveh](https://github.com/h4md153v63n/CTFs/blob/main/01_HTB/08_Nineveh.md)|CVE:N/A [1](https://www.exploit-db.com/exploits/24044) ,CVE-2014-0476, CVE-2017-16995|unix,info.php,bruteforce/decrypt/decode,hydra,php login bypass,php comparisons error exploit,type juggling,php login bypass type juggling,LFI,rce,phpliteadmin,reverse shell,pspy,cronjob/scheduled task,chkrootkit,strings,ssh,stego,binwalk,system binary exploit,system/config/backup file,mail,port knock,knockd,chisel,ssh authorized keys,public SSH keystring,private SSH keystring,kernel|
 |3   |SolidState        |[SolidState](https://github.com/h4md153v63n/CTFs/blob/main/01_HTB/10_SolidState.md)|CVE:N/A [1](https://www.exploit-db.com/exploits/35513) [2](https://www.exploit-db.com/exploits/50347)|unix,Apache James Mail Server,smtp,pop3,email,mutt,ssh,sshpass,authenticated rce,cron/scheduled tasks,pspy,rbash(restricted bash shell)/restricted shell,smtp/pop/imap,ssh,default creds,telnet,/etc/bash_completion.d,RSIP|
 |4   |Node              |[Node](https://github.com/h4md153v63n/CTFs/blob/main/01_HTB/11_Node.md)|CVE-2017-16995|unix,Express Node.js,API,hadoop,big data,crackstation.net,MongoDB,NoSQL,base64,unzip,fcrackzip,zip2john,john,ssh,cron/scheduled tasks,kernel exploit,SUID,binary analysis,ltrace,unzip,7z,libc buffer overflow|
+|5   |Poison            |[Poison](https://github.com/h4md153v63n/CTFs/blob/main/01_HTB/13_Poison.md)|-|unix,bruteforce/decrypt/decode,hash/encrypted/encoded,LFI,local file inclusion,log poisoning,rce,reverse shell,ssh,ssh tunnelling,proxychains,port forwarding,stored creds,system binary exploit,system/config/backup file,VNC,vncviewer,scp,phpinfo.php,phpinfolfi.py|
 
 
 # Hard
-|S.No| Machine          | Link | CVE  | Tags    |
-|----|------------------|------|------|---------|
-|1   |                  |      |      |         |
+|S.No| Machine          | Link |CVE                                                   | Tags    |
+|----|------------------|------|------------------------------------------------------|---------|
+|1   |                  |      |                                                      |         |
 
 
 
 # Insane
-|S.No| Machine          | Link |    CVE     | Tags    |
-|----|------------------|------|------------|---------|
+|S.No| Machine          | Link |CVE                                                   | Tags    |
+|----|------------------|------|------------------------------------------------------|---------|
 |1   |Brainfuck         |[Brainfuck](https://github.com/h4md153v63n/CTFs/blob/main/01_HTB/02_Brainfuck.md)|CVE:N/A [1](https://www.exploit-db.com/exploits/41006)  [2](https://www.exploit-db.com/exploits/46978)|smtp,pop3,email,mutt,ssh,id_rsa,ssh2john,john,tls,subdomain,wordpress,vigenere,RSA,lxd,lxc,ssh|
 
 
